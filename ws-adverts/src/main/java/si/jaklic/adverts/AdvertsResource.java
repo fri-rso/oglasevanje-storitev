@@ -11,10 +11,6 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.util.List;
 
-/**
- * @author Igor Fele <igor.fele@result.si>
- * @since $VERSION
- */
 @Path("/adverts")
 @RequestScoped
 @Produces(MediaType.APPLICATION_JSON)

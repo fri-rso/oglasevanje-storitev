@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/db-models/db-models.iml" filepath="$PROJECT_DIR$/db-models/db-models.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/oglasevanje-storitev.iml" filepath="$PROJECT_DIR$/.idea/oglasevanje-storitev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ws-orders/src/main/main.iml" filepath="$PROJECT_DIR$/ws-orders/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ws-adverts/src/main/main1.iml" filepath="$PROJECT_DIR$/ws-adverts/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/db-models/src/main/main2.iml" filepath="$PROJECT_DIR$/db-models/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oglasevanje-storitev.iml" filepath="$PROJECT_DIR$/oglasevanje-storitev.iml" />
       <module fileurl="file://$PROJECT_DIR$/ws-adverts/ws-adverts.iml" filepath="$PROJECT_DIR$/ws-adverts/ws-adverts.iml" />
       <module fileurl="file://$PROJECT_DIR$/ws-orders/ws-orders.iml" filepath="$PROJECT_DIR$/ws-orders/ws-orders.iml" />
     </modules>

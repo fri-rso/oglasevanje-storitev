@@ -13,10 +13,6 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.util.Date;
 
-/**
- * @author Igor Fele <igor.fele@result.si>
- * @since $VERSION
- */
 @Path("/orders")
 @RequestScoped
 @Produces(MediaType.APPLICATION_JSON)

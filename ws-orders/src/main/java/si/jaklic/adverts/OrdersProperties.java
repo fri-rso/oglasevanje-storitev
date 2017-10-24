@@ -4,10 +4,6 @@ import com.kumuluz.ee.configuration.cdi.ConfigBundle;
 
 import javax.enterprise.context.ApplicationScoped;
 
-/**
- * @author Igor Fele <igor.fele@result.si>
- * @since $VERSION
- */
 @ConfigBundle("orders")
 @ApplicationScoped
 public class OrdersProperties {

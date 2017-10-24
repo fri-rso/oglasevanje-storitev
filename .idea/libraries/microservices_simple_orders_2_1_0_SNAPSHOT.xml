@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="microservices-simple-orders-2.1.0-SNAPSHOT">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/orders/target/microservices-simple-orders-2.1.0-SNAPSHOT.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
