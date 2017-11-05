@@ -7,13 +7,13 @@ import javax.enterprise.context.ApplicationScoped;
 @ConfigBundle("orders")
 @ApplicationScoped
 public class OrdersProperties {
-  private String catalogueUrl = "http://localhost:3000";
+  private String advertsUrl = "http://localhost:8080";
 
-  public String getCatalogueUrl() {
-    return catalogueUrl;
+  public String getAdvertsUrl() {
+    return advertsUrl;
   }
 
-  public void setCatalogueUrl(final String catalogueUrl) {
-    this.catalogueUrl = catalogueUrl;
+  public void setAdvertsUrl(final String advertsUrl) {
+    this.advertsUrl = advertsUrl;
   }
 }

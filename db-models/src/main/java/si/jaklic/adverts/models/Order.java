@@ -15,7 +15,8 @@ public class Order {
     @Temporal(TemporalType.TIMESTAMP)
     private Date orderDate;
 
-    private DecimalFormat quantity;
+    @Column(name="quantity", columnDefinition="integer")
+    private Integer quantity;
 
     @OneToOne(fetch=FetchType.LAZY)
     @JoinColumn(name="advert_id")
@@ -45,11 +46,11 @@ public class Order {
         this.advert = advert;
     }
 
-    public DecimalFormat getQuantity() {
+    public Integer getQuantity() {
         return quantity;
     }
 
-    public void setQuantity(DecimalFormat quantity) {
+    public void setQuantity(Integer quantity) {
         this.quantity = quantity;
     }
 }
