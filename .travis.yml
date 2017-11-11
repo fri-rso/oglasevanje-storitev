@@ -13,4 +13,4 @@ script:
 - docker build -t fri-rso/oglasevanje-storitev .
 after_success:
 - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
-- docker push fri-rso/oglasevanje-storitev
+- docker push frirso/oglasevanje-storitev
