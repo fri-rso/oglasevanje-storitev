@@ -4,7 +4,7 @@ RUN mkdir /app
 
 WORKDIR /app
 
-ADD /home/travis/build/fri-rso/oglasevanje-storitev/ws-orders/target/ws-orders-1.0-SNAPSHOT.jar /app
+ADD $TRAVIS_BUILD_DIR/ws-orders/target/ws-orders-1.0-SNAPSHOT.jar /app
 
 EXPOSE 8080
 
