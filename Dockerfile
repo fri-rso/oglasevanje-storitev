@@ -8,4 +8,4 @@ ADD $TRAVIS_BUILD_DIR/ws-orders/target/ws-orders-1.0-SNAPSHOT.jar /app
 
 EXPOSE 8080
 
-CMD ["java", "-jar", "ws-adverts.jar"]
+CMD ["java", "-jar", "/app/ws-adverts.jar"]
