@@ -1,9 +1,9 @@
 kumuluzee:
   datasources:
     - jndi-name: jdbc/advertsDS
-      connection-url: jdbc:mysql://localhost:3306/
-      username: root
-      password: rok123
+      connection-url: jdbc:postgresql://postgres:5432/adverts
+      username: postgres
+      password: postgres
       max-pool-size: 20
   server:
       base-url: http://localhost:8081
