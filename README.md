@@ -26,3 +26,4 @@ kubectl run ws-orders --image=frirso/ws-orders
 
 kubectl expose deployment ws-orders --type=LoadBalancer --port 80 --target-port 8081
 kubectl expose deployment ws-adverts --type=LoadBalancer --port 80 --target-port 8082
+
