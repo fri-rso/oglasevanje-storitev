@@ -17,7 +17,7 @@ gcloud compute disks create --size 200GB postgresql-disk
 kubectl delete deployment
 
 --
-
+```sh
 kubectl create -f postgresql.yaml
 kubectl create -f postgresql-service.yaml
 
@@ -26,4 +26,5 @@ kubectl run ws-orders --image=frirso/ws-orders
 
 kubectl expose deployment ws-orders --type=LoadBalancer --port 80 --target-port 8081
 kubectl expose deployment ws-adverts --type=LoadBalancer --port 80 --target-port 8082
+```sh
 
