@@ -9,7 +9,7 @@ docker build -t ws-adverts .
 docker run -d --link postgres-customers -p 8080:8080 ws-adverts
 
 ---
-*kubernetes*
+_kubernetes_
 
 kubectl exec -ti postgres-5x41b bash
 kubectl describe pods $POD_NAME
