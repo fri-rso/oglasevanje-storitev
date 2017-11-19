@@ -7,38 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e37d1edf-598d-472a-914e-207605da1f87" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dockerfile.ws-orders" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Dockerfile" afterPath="$PROJECT_DIR$/Dockerfile.ws-adverts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db-models/target/db-models-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/db-models/target/db-models-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/db-models-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ws-adverts/target/classes/lib/db-models-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/kumuluzee-cdi-weld-2.5.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ws-adverts/target/classes/lib/kumuluzee-cdi-weld-2.5.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/kumuluzee-common-2.5.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ws-adverts/target/classes/lib/kumuluzee-common-2.5.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/kumuluzee-core-2.5.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ws-adverts/target/classes/lib/kumuluzee-core-2.5.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/kumuluzee-jax-rs-jersey-2.5.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ws-adverts/target/classes/lib/kumuluzee-jax-rs-jersey-2.5.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/kumuluzee-jpa-common-2.5.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ws-adverts/target/classes/lib/kumuluzee-jpa-common-2.5.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/kumuluzee-jpa-eclipselink-2.5.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ws-adverts/target/classes/lib/kumuluzee-jpa-eclipselink-2.5.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/kumuluzee-json-p-jsonp-2.5.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ws-adverts/target/classes/lib/kumuluzee-json-p-jsonp-2.5.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/kumuluzee-microProfile-1.1-2.5.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ws-adverts/target/classes/lib/kumuluzee-microProfile-1.1-2.5.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/kumuluzee-servlet-jetty-2.5.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ws-adverts/target/classes/lib/kumuluzee-servlet-jetty-2.5.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-adverts/target/ws-adverts-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ws-adverts/target/ws-adverts-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-adverts/target/ws-adverts-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/ws-adverts/target/ws-adverts-1.0-SNAPSHOT.jar.original" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/target/classes/lib/db-models-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ws-orders/target/classes/lib/db-models-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/target/classes/lib/kumuluzee-cdi-weld-2.5.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ws-orders/target/classes/lib/kumuluzee-cdi-weld-2.5.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/target/classes/lib/kumuluzee-common-2.5.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ws-orders/target/classes/lib/kumuluzee-common-2.5.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/target/classes/lib/kumuluzee-core-2.5.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ws-orders/target/classes/lib/kumuluzee-core-2.5.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/target/classes/lib/kumuluzee-jax-rs-jersey-2.5.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ws-orders/target/classes/lib/kumuluzee-jax-rs-jersey-2.5.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/target/classes/lib/kumuluzee-jpa-common-2.5.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ws-orders/target/classes/lib/kumuluzee-jpa-common-2.5.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/target/classes/lib/kumuluzee-jpa-eclipselink-2.5.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ws-orders/target/classes/lib/kumuluzee-jpa-eclipselink-2.5.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/target/classes/lib/kumuluzee-json-p-jsonp-2.5.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ws-orders/target/classes/lib/kumuluzee-json-p-jsonp-2.5.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/target/classes/lib/kumuluzee-microProfile-1.1-2.5.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ws-orders/target/classes/lib/kumuluzee-microProfile-1.1-2.5.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/target/classes/lib/kumuluzee-servlet-jetty-2.5.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ws-orders/target/classes/lib/kumuluzee-servlet-jetty-2.5.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/target/ws-orders-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ws-orders/target/ws-orders-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/target/ws-orders-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/ws-orders/target/ws-orders-1.0-SNAPSHOT.jar.original" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dockerfile.ws-adverts" afterPath="$PROJECT_DIR$/Dockerfile.ws-adverts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-adverts/src/main/resources/config.yaml" afterPath="$PROJECT_DIR$/ws-adverts/src/main/resources/config.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/config.yaml" afterPath="$PROJECT_DIR$/ws-adverts/target/classes/config.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/target/classes/config.yaml" afterPath="$PROJECT_DIR$/ws-orders/target/classes/config.yaml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/db-models/target/" />
@@ -54,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config.yaml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ws-orders/src/main/resources/config.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="10" selection-end-column="18" />
+            <state relative-caret-position="162">
+              <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -67,8 +38,8 @@
       <file leaf-file-name="config.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ws-adverts/src/main/resources/config.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            <state relative-caret-position="144">
+              <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -84,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dockerfile.ws-adverts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Dockerfile.ws-adverts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dockerfile.ws-adverts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
@@ -180,9 +151,9 @@
         <option value="$PROJECT_DIR$/db-models/src/main/java/si/jaklic/adverts/models/Order.java" />
         <option value="$PROJECT_DIR$/ws-orders/src/main/resources/config.yaml" />
         <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/ws-adverts/src/main/resources/config.yaml" />
         <option value="$PROJECT_DIR$/Dockerfile.ws-adverts" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -232,6 +203,58 @@
             <path>
               <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
               <item name="oglasevanje-storitev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oglasevanje-storitev" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-adverts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oglasevanje-storitev" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-adverts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oglasevanje-storitev" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-adverts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oglasevanje-storitev" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-adverts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oglasevanje-storitev" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-orders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oglasevanje-storitev" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-orders" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oglasevanje-storitev" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-orders" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oglasevanje-storitev" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-orders" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -385,11 +408,25 @@
       <option name="project" value="LOCAL" />
       <updated>1511018335979</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="postgres">
+      <created>1511110631071</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1511110631071</updated>
+    </task>
+    <task id="LOCAL-00003" summary=".">
+      <created>1511110927598</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1511110927598</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19063000" />
+    <option name="totallyTimeSpent" value="20241000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
@@ -442,7 +479,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="postgres" />
-    <option name="LAST_COMMIT_MESSAGE" value="postgres" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -864,10 +902,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile.ws-adverts">
+    <entry file="file://$PROJECT_DIR$/ws-orders/src/main/resources/config.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-adverts/src/main/resources/config.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -880,18 +926,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ws-adverts/src/main/resources/config.yaml">
+    <entry file="file://$PROJECT_DIR$/Dockerfile.ws-adverts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ws-orders/src/main/resources/config.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="10" selection-end-column="18" />
+        <state relative-caret-position="144">
+          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
           <folding />
         </state>
       </provider>

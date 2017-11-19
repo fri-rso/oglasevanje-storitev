@@ -6,6 +6,6 @@ WORKDIR /app
 
 ADD $TRAVIS_BUILD_DIR/ws-adverts/target/ws-adverts-1.0-SNAPSHOT.jar /app
 
-EXPOSE 8080
+EXPOSE 8082
 
 CMD ["java", "-jar", "/app/ws-adverts-1.0-SNAPSHOT.jar"]
