@@ -9,3 +9,6 @@ kumuluzee:
       base-url: http://localhost:8081
       http:
         port: 8081
+  discovery:
+      consul:
+          agent: http://consul:8500
