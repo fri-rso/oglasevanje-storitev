@@ -29,6 +29,11 @@
             <groupId>org.eclipse.persistence</groupId>
             <artifactId>javax.persistence</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>com.kumuluz.ee.discovery</groupId>
+            <artifactId>kumuluzee-discovery-consul</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
