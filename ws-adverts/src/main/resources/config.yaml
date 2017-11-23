@@ -12,7 +12,3 @@ kumuluzee:
   discovery:
       consul:
           agent: http://consul:8500
-  name: adverts-service
-    env:
-      name: dev
-    version: 1.2.3
