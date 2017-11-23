@@ -1,3 +1,4 @@
-si/jaklic/adverts/OrdersApplication.class
 si/jaklic/adverts/OrdersProperties.class
 si/jaklic/adverts/OrdersResource.class
+si/jaklic/adverts/OrdersApplication.class
+META-INF/services/javax.ws.rs.core.Application
