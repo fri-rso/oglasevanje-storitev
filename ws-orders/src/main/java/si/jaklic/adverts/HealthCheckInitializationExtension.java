@@ -1,20 +1,44 @@
 package si.jaklic.adverts;
 
+// import com.kumuluz.ee.configuration.utils.ConfigurationUtil;
 import com.kumuluz.ee.health.HealthRegistry;
+import com.kumuluz.ee.health.checks.*;
+import org.eclipse.microprofile.health.Health;
+import org.eclipse.microprofile.health.HealthCheck;
 
 import javax.enterprise.context.ApplicationScoped;
-import javax.enterprise.context.Destroyed;
 import javax.enterprise.context.Initialized;
 import javax.enterprise.event.Observes;
+import javax.enterprise.inject.spi.Bean;
+import javax.enterprise.inject.spi.BeanManager;
+import javax.enterprise.inject.spi.Extension;
+import javax.enterprise.util.AnnotationLiteral;
+import java.util.Set;
 
-@ApplicationScoped
-public class HealthCheckInitializationExtension {
+/**
+ * Health check registration class.
+ *
+ * @author Marko Škrjanec
+ * @since 1.0.0
+ */
+public class HealthCheckInitializationExtension implements Extension {
 
-    private void initialize(@Observes @Initialized(ApplicationScoped.class) Object init) {
-        HealthRegistry.getInstance().register(GithubHealthCheck.class.getSimpleName(), new GithubHealthCheck());
-        HealthRegistry.getInstance().register(OrdersHealthCheck.class.getSimpleName(), new OrdersHealthCheck());
-    }
+    public <T> void registerHealthChecks(@Observes @Initialized(ApplicationScoped.class) Object init, BeanManager
+            beanManager) {
 
-    private void cleanup(@Observes @Destroyed(ApplicationScoped.class) Object init) {
+        // register classes that implement health checks
+        // ConfigurationUtil configurationUtil = ConfigurationUtil.getInstance();
+        HealthRegistry healthCheckRegistry = HealthRegistry.getInstance();
+
+        healthCheckRegistry.register(GithubHealthCheck.class.getSimpleName(), new GithubHealthCheck());
+        healthCheckRegistry.register(OrdersHealthCheck.class.getSimpleName(), new OrdersHealthCheck());
+
+        Set<Bean<?>> beans = beanManager.getBeans(HealthCheck.class, new AnnotationLiteral<Health>() {});
+
+        for (Bean bean : beans) {
+            HealthCheck healthCheckBean = (HealthCheck) beanManager.getReference(bean, HealthCheck.class,
+                    beanManager.createCreationalContext(bean));
+            HealthRegistry.getInstance().register(bean.getBeanClass().getSimpleName(), healthCheckBean);
+        }
     }
 }
