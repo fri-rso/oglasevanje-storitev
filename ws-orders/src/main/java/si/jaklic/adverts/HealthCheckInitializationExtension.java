@@ -8,10 +8,11 @@ import javax.enterprise.context.Initialized;
 import javax.enterprise.event.Observes;
 
 @ApplicationScoped
-public class HealthCheckRegistrationBean {
+public class HealthCheckInitializationExtension {
 
     private void initialize(@Observes @Initialized(ApplicationScoped.class) Object init) {
         HealthRegistry.getInstance().register(GithubHealthCheck.class.getSimpleName(), new GithubHealthCheck());
+        HealthRegistry.getInstance().register(OrdersHealthCheck.class.getSimpleName(), new OrdersHealthCheck());
     }
 
     private void cleanup(@Observes @Destroyed(ApplicationScoped.class) Object init) {

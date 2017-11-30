@@ -9,7 +9,7 @@ import java.util.logging.Logger;
 
 public class GithubHealthCheck implements HealthCheck {
 
-    private static final String url = "https://github.com/kumuluz/kumuluzee";
+    private static final String url = "http://github.com/kumuluz/kumuluzee";
 
     private static final Logger LOG = Logger.getLogger(GithubHealthCheck.class.getSimpleName());
 
