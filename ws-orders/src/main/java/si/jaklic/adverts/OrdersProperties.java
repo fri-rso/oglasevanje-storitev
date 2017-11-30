@@ -15,5 +15,6 @@ public class OrdersProperties {
 
   public void setAdvertsUrl(final String advertsUrl) {
     this.advertsUrl = advertsUrl;
+
   }
 }
