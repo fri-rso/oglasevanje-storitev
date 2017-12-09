@@ -1,4 +1,9 @@
 si/jaklic/adverts/OrdersProperties.class
+si/jaklic/adverts/GithubHealthCheck.class
 si/jaklic/adverts/OrdersResource.class
 si/jaklic/adverts/OrdersApplication.class
+si/jaklic/adverts/OrdersHealthCheck.class
+si/jaklic/adverts/HealthCheckInitializationExtension$1.class
+si/jaklic/adverts/HealthCheckInitializationExtension.class
+si/jaklic/adverts/providers/KumuluzHealthCheckResponseProvider.class
 META-INF/services/javax.ws.rs.core.Application

@@ -88,7 +88,7 @@
             <dependency>
                 <groupId>com.kumuluz.ee.discovery</groupId>
                 <artifactId>kumuluzee-discovery-etcd</artifactId>
-                <version>${kumuluzee-discovery.version}</version>
+                <version>LATEST</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

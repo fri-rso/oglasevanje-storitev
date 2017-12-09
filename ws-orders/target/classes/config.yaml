@@ -10,5 +10,8 @@ kumuluzee:
       http:
         port: 8081
   discovery:
-      consul:
-          agent: http://consul:8500
+    etcd:
+      hosts: http://etcd:2379
+    ttl: 20
+    ping-interval: 15
+
