@@ -18,4 +18,4 @@ kumuluzee:
       hosts: http://etcd:2379
     ttl: 20
     ping-interval: 15
-
+    cluster: cluster-1
