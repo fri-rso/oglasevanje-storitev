@@ -11,7 +11,7 @@ import java.util.logging.Logger;
 
 public class OrdersHealthCheck implements HealthCheck {
     @Inject
-    @DiscoverService(value = "orders-service", environment = "dev", version = "1.0.0")
+    @DiscoverService(value = "ws-orders", environment = "dev", version = "1.0.0")
     private String url;
 
     private static final Logger LOG = Logger.getLogger(OrdersHealthCheck.class.getSimpleName());
