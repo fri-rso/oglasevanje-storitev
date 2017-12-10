@@ -3,9 +3,11 @@ To run locally:
 1. docker run -e POSTGRES_PASSWORD=postgres --restart=always -p 5432:5432 -d postgres:9.4
 2. mvn clean package # in cloned directory
 3. psql -U postgres -h localhost # password is postgres
-4. craete database adverts
-5. goto ws-adverts directory
-6. run "java -jar target/ws-adverts-1.0-SNAPSHOT.jar"
+4. create database adverts
+5. in both config.yaml change connection urls to localhost
+6. download and start etcd
+7. goto ws-adverts directory
+8. run "java -jar target/ws-adverts-1.0-SNAPSHOT.jar"
 
 --- 
 For docker:
