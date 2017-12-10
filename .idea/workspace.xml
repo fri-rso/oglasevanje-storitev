@@ -6,126 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e37d1edf-598d-472a-914e-207605da1f87" name="Default" comment=".">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-adverts/src/main/resources/config-localhost.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-adverts/src/main/resources/config-production.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/AdvertsHealthCheck.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-orders/src/main/resources/config-localhost.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-orders/src/main/resources/config-production.yaml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/META-INF/kumuluzee/boot-loader.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/com/kumuluz/ee/loader/EeBootLoader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/com/kumuluz/ee/loader/EeClassLoader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/com/kumuluz/ee/loader/exception/EeClassLoaderException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/com/kumuluz/ee/loader/jar/JarEntryInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/com/kumuluz/ee/loader/jar/JarFileInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/HikariCP-2.6.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/aopalliance-repackaged-2.5.0-b32.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/asm-5.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/asm-commons-5.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/asm-tree-5.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/cdi-api-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/db-models-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/hk2-api-2.5.0-b32.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/hk2-locator-2.5.0-b32.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/hk2-utils-2.5.0-b32.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/http2-client-9.4.6.v20170531.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/http2-common-9.4.6.v20170531.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/http2-hpack-9.4.6.v20170531.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/http2-http-client-transport-9.4.6.v20170531.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/http2-server-9.4.6.v20170531.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jackson-annotations-2.8.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jackson-core-2.8.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jackson-databind-2.8.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jackson-jaxrs-base-2.8.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jackson-jaxrs-json-provider-2.8.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jackson-module-jaxb-annotations-2.8.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jandex-2.0.3.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/javassist-3.20.0-GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/javax.annotation-api-1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/javax.el-api-3.0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/javax.inject-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/javax.inject-2.5.0-b32.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/javax.interceptor-api-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/javax.json-1.0.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/javax.json-api-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/javax.persistence-2.2.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/javax.servlet-api-3.1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/javax.ws.rs-api-2.0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jboss-classfilewriter-1.1.2.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jboss-logging-3.3.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jersey-cdi1x-2.25.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jersey-client-2.25.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jersey-common-2.25.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jersey-container-servlet-2.25.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jersey-container-servlet-core-2.25.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jersey-entity-filtering-2.25.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jersey-guava-2.25.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jersey-jetty-connector-2.25.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jersey-media-jaxb-2.25.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jersey-media-json-jackson-2.25.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jersey-server-2.25.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jetty-alpn-client-9.4.6.v20170531.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jetty-alpn-server-9.4.6.v20170531.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jetty-annotations-9.4.6.v20170531.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jetty-client-9.4.6.v20170531.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jetty-http-9.4.6.v20170531.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jetty-io-9.4.6.v20170531.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jetty-jndi-9.4.6.v20170531.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jetty-plus-9.4.6.v20170531.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jetty-security-9.4.6.v20170531.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jetty-server-9.4.6.v20170531.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jetty-servlet-9.4.6.v20170531.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jetty-util-9.4.6.v20170531.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jetty-webapp-9.4.6.v20170531.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/jetty-xml-9.4.6.v20170531.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/kumuluzee-cdi-weld-2.5.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/kumuluzee-common-2.5.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/kumuluzee-config-mp-1.1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/kumuluzee-core-2.5.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/kumuluzee-jax-rs-jersey-2.5.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/kumuluzee-jpa-common-2.5.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/kumuluzee-jpa-eclipselink-2.5.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/kumuluzee-json-p-jsonp-2.5.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/kumuluzee-microProfile-1.1-2.5.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/kumuluzee-servlet-jetty-2.5.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/microprofile-config-api-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/org.eclipse.persistence.antlr-2.6.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/org.eclipse.persistence.asm-2.6.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/org.eclipse.persistence.core-2.6.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/org.eclipse.persistence.jpa-2.6.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/org.eclipse.persistence.jpa.jpql-2.6.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/org.osgi.annotation.versioning-1.0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/osgi-resource-locator-1.0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/postgresql-42.0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/slf4j-api-1.7.25.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/snakeyaml-1.18.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/validation-api-1.1.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/weld-api-2.4.SP1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/weld-core-impl-2.4.4.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/weld-core-jsf-2.4.4.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/weld-environment-common-2.4.4.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/weld-probe-core-2.4.4.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/weld-servlet-core-2.4.4.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/lib/weld-spi-2.4.SP1.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db-models/target/db-models-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/db-models/target/db-models-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/si/jaklic/adverts/AdvertsApplication.class" afterPath="$PROJECT_DIR$/ws-adverts/target/classes/si/jaklic/adverts/AdvertsApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-adverts/target/ws-adverts-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ws-adverts/target/ws-adverts-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-adverts/target/ws-adverts-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/ws-adverts/target/ws-adverts-1.0-SNAPSHOT.jar.original" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/target/classes/lib/db-models-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ws-orders/target/classes/lib/db-models-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/target/classes/si/jaklic/adverts/OrdersApplication.class" afterPath="$PROJECT_DIR$/ws-orders/target/classes/si/jaklic/adverts/OrdersApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/target/classes/si/jaklic/adverts/OrdersResource.class" afterPath="$PROJECT_DIR$/ws-orders/target/classes/si/jaklic/adverts/OrdersResource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/target/ws-orders-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ws-orders/target/ws-orders-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/target/ws-orders-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/ws-orders/target/ws-orders-1.0-SNAPSHOT.jar.original" />
+    <list default="true" id="e37d1edf-598d-472a-914e-207605da1f87" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-adverts/src/main/java/si/jaklic/adverts/AdvertsApplication.java" afterPath="$PROJECT_DIR$/ws-adverts/src/main/java/si/jaklic/adverts/AdvertsApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-adverts/src/main/resources/config.yaml" afterPath="$PROJECT_DIR$/ws-adverts/src/main/resources/config.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/config.yaml" afterPath="$PROJECT_DIR$/ws-adverts/target/classes/config.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/HealthCheckInitializationExtension.java" afterPath="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/HealthCheckInitializationExtension.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/OrdersApplication.java" afterPath="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/OrdersApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/OrdersHealthCheck.java" afterPath="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/OrdersHealthCheck.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/OrdersResource.java" afterPath="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/OrdersResource.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/src/main/resources/config.yaml" afterPath="$PROJECT_DIR$/ws-orders/src/main/resources/config.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/target/classes/config.yaml" afterPath="$PROJECT_DIR$/ws-orders/target/classes/config.yaml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/db-models/target/" />
@@ -161,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.yaml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="config.yaml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ws-orders/src/main/resources/config.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -184,8 +67,8 @@
       <file leaf-file-name="config-production.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ws-orders/src/main/resources/config-production.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="15" column="12" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -213,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.yaml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ws-adverts/src/main/resources/config.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -304,8 +187,8 @@
         <option value="$PROJECT_DIR$/ws-orders/src/main/resources/config-localhost.yaml" />
         <option value="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/HealthCheckInitializationExtension.java" />
         <option value="$PROJECT_DIR$/ws-orders/src/main/resources/config-production.yaml" />
-        <option value="$PROJECT_DIR$/ws-orders/src/main/resources/config.yaml" />
         <option value="$PROJECT_DIR$/ws-adverts/src/main/resources/config.yaml" />
+        <option value="$PROJECT_DIR$/ws-orders/src/main/resources/config.yaml" />
       </list>
     </option>
   </component>
@@ -326,11 +209,11 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="65" />
-    <option name="y" value="34" />
+    <option name="y" value="-4" />
     <option name="width" value="1855" />
-    <option name="height" value="1056" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -357,6 +240,58 @@
             <path>
               <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
               <item name="oglasevanje-storitev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oglasevanje-storitev" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-adverts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oglasevanje-storitev" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-adverts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oglasevanje-storitev" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-adverts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oglasevanje-storitev" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-adverts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oglasevanje-storitev" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-orders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oglasevanje-storitev" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-orders" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oglasevanje-storitev" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-orders" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oglasevanje-storitev" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-orders" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
@@ -600,7 +535,7 @@
       <workItem from="1512069711308" duration="10042000" />
       <workItem from="1512084514100" duration="3227000" />
       <workItem from="1512820735653" duration="7220000" />
-      <workItem from="1512927464776" duration="6597000" />
+      <workItem from="1512927464776" duration="7116000" />
     </task>
     <task id="LOCAL-00001" summary="postgres">
       <created>1511018335979</created>
@@ -770,30 +705,37 @@
       <option name="project" value="LOCAL" />
       <updated>1512857877780</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="debilna java">
+      <created>1512942401980</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1512942401980</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60142000" />
+    <option name="totallyTimeSpent" value="60661000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="34" width="1855" height="1056" extended-state="0" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.49585405" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34304208" sideWeight="0.22001106" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46596858" sideWeight="0.22001106" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5404531" sideWeight="0.8662244" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26533997" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26533997" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34304208" sideWeight="0.77998894" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46596858" sideWeight="0.77998894" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -813,7 +755,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="postgres" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="debilna java" />
+    <option name="LAST_COMMIT_MESSAGE" value="debilna java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1223,22 +1166,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ws-orders/src/main/resources/config-production.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ws-orders/src/main/resources/config.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ws-adverts/src/main/resources/config-production.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -1249,8 +1176,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ws-adverts/src/main/resources/config.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-orders/src/main/resources/config-production.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-orders/src/main/resources/config.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           <folding />
         </state>
       </provider>
