@@ -1,5 +1,6 @@
 package si.jaklic.adverts;
 
+import com.kumuluz.ee.discovery.annotations.DiscoverService;
 import si.jaklic.adverts.models.Advert;
 import si.jaklic.adverts.models.Order;
 
@@ -12,6 +13,7 @@ import javax.ws.rs.*;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import java.net.URL;
 import java.util.Date;
 import java.util.List;
 
@@ -26,6 +28,10 @@ public class OrdersResource {
 
   @Inject
   private OrdersProperties ordersProperties;
+
+  @Inject
+  @DiscoverService(value = "ws-orders", environment = "dev", version = "1.0.0")
+  private URL url;
 
   @GET
   public Response getOrders() {

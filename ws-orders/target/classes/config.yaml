@@ -1,7 +1,11 @@
 kumuluzee:
+  name: ws-orders
+  env:
+    name: dev
+  version: 1.0.0
   datasources:
     - jndi-name: jdbc/advertsDS
-      connection-url: jdbc:postgresql://postgres:5432/adverts
+      connection-url: jdbc:postgresql://localhost:5432/adverts
       username: postgres
       password: postgres
       max-pool-size: 20
@@ -11,7 +15,9 @@ kumuluzee:
         port: 8081
   discovery:
     etcd:
-      hosts: http://etcd:2379
+      hosts: http://localhost:2379
     ttl: 20
     ping-interval: 15
-
+    cluster: cluster-1
+  orders-url: http://localhost:8081
+  adverts-url: http://localhost:8082

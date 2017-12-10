@@ -1,24 +1,24 @@
 package si.jaklic.adverts;
 
+import com.kumuluz.ee.configuration.utils.ConfigurationUtil;
 import com.kumuluz.ee.discovery.annotations.DiscoverService;
 import org.eclipse.microprofile.health.HealthCheck;
 import org.eclipse.microprofile.health.HealthCheckResponse;
 
 import javax.inject.Inject;
+import javax.ws.rs.client.WebTarget;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.logging.Logger;
 
 public class OrdersHealthCheck implements HealthCheck {
-    @Inject
-    @DiscoverService(value = "ws-orders", environment = "dev", version = "1.0.0")
-    private String url;
-
     private static final Logger LOG = Logger.getLogger(OrdersHealthCheck.class.getSimpleName());
 
     @Override
     public HealthCheckResponse call() {
         try {
+            ConfigurationUtil configurationUtil = ConfigurationUtil.getInstance();
+            String url = configurationUtil.get("kumuluzee.orders-url").orElse("");
             HttpURLConnection connection = (HttpURLConnection) new URL(url + "/orders").openConnection();
             connection.setRequestMethod("HEAD");
 

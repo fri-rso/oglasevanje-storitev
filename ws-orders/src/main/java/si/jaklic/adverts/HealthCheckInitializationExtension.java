@@ -1,8 +1,6 @@
 package si.jaklic.adverts;
 
-// import com.kumuluz.ee.configuration.utils.ConfigurationUtil;
 import com.kumuluz.ee.health.HealthRegistry;
-import com.kumuluz.ee.health.checks.*;
 import org.eclipse.microprofile.health.Health;
 import org.eclipse.microprofile.health.HealthCheck;
 
@@ -22,7 +20,6 @@ import java.util.Set;
  * @since 1.0.0
  */
 public class HealthCheckInitializationExtension implements Extension {
-
     public <T> void registerHealthChecks(@Observes @Initialized(ApplicationScoped.class) Object init, BeanManager
             beanManager) {
 
@@ -30,8 +27,9 @@ public class HealthCheckInitializationExtension implements Extension {
         // ConfigurationUtil configurationUtil = ConfigurationUtil.getInstance();
         HealthRegistry healthCheckRegistry = HealthRegistry.getInstance();
 
-        healthCheckRegistry.register(GithubHealthCheck.class.getSimpleName(), new GithubHealthCheck());
+        // healthCheckRegistry.register(GithubHealthCheck.class.getSimpleName(), new GithubHealthCheck());
         healthCheckRegistry.register(OrdersHealthCheck.class.getSimpleName(), new OrdersHealthCheck());
+        healthCheckRegistry.register(AdvertsHealthCheck.class.getSimpleName(), new AdvertsHealthCheck());
 
         Set<Bean<?>> beans = beanManager.getBeans(HealthCheck.class, new AnnotationLiteral<Health>() {});
 

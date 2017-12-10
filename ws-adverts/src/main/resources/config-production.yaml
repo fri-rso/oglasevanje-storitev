@@ -1,0 +1,23 @@
+kumuluzee:
+  name: ws-adverts
+  env:
+    name: dev
+  version: 1.0.0
+  datasources:
+    - jndi-name: jdbc/advertsDS
+      connection-url: jdbc:postgresql://postgresql:5432/adverts
+      username: postgres
+      password: postgres
+      max-pool-size: 20
+  server:
+      base-url: http://localhost:8082
+      http:
+        port: 8082
+  discovery:
+    etcd:
+      hosts: http://etcd:2379
+    ttl: 20
+    ping-interval: 15
+    cluster: cluster-1
+  orders-url: http://ws-orders:8081
+  adverts-url: http://ws-adverts:8082
