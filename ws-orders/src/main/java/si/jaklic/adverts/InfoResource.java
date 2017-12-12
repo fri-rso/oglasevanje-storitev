@@ -14,7 +14,7 @@ public class InfoResource {
     @GET
     public Response getOrders() {
         String[] clani = new String[]{"j2799", "lp7872", "lh7753"};
-        String[] mikrostoritve = new String[]{"http://35.198.102.110/orders", "http://35.198.72.252/adverts"};
+        String[] mikrostoritve = new String[]{"http://35.198.158.135/orders", "http://35.198.120.63/adverts"};
         String[] github = new String[]{"https://github.com/fri-rso/oglasevanje-storitev"};
         String[] travis = new String[]{"https://travis-ci.org/fri-rso/oglasevanje-storitev"};
         String[] dockerhub = new String[]{"https://hub.docker.com/r/frirso/ws-adverts/", "https://hub.docker.com/r/frirso/ws-orders/"};
