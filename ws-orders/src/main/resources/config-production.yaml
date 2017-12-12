@@ -5,7 +5,7 @@ kumuluzee:
   version: 1.0.0
   datasources:
     - jndi-name: jdbc/advertsDS
-      connection-url: jdbc:postgresql://postgresql:5432/adverts
+      connection-url: jdbc:postgresql://postgres:5432/adverts
       username: postgres
       password: postgres
       max-pool-size: 20

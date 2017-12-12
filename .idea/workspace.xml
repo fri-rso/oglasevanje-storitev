@@ -6,11 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e37d1edf-598d-472a-914e-207605da1f87" name="Default" comment=".">
+    <list default="true" id="e37d1edf-598d-472a-914e-207605da1f87" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-adverts/src/main/resources/config-production.yaml" afterPath="$PROJECT_DIR$/ws-adverts/src/main/resources/config-production.yaml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-adverts/src/main/resources/config.yaml" afterPath="$PROJECT_DIR$/ws-adverts/src/main/resources/config.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-adverts/target/classes/config.yaml" afterPath="$PROJECT_DIR$/ws-adverts/target/classes/config.yaml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/src/main/resources/config-production.yaml" afterPath="$PROJECT_DIR$/ws-orders/src/main/resources/config-production.yaml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/src/main/resources/config.yaml" afterPath="$PROJECT_DIR$/ws-orders/src/main/resources/config.yaml" />
     </list>
@@ -38,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.yaml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ws-orders/src/main/resources/config.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+            <state relative-caret-position="126">
+              <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -118,8 +117,8 @@
       <file leaf-file-name="config.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ws-adverts/src/main/resources/config.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="144">
+              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -128,18 +127,18 @@
       <file leaf-file-name="config-production.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ws-orders/src/main/resources/config-production.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="21" column="35" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="126">
+              <caret line="7" column="61" lean-forward="false" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config-production.yaml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="config-production.yaml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ws-adverts/src/main/resources/config-production.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="126">
+              <caret line="7" column="61" lean-forward="false" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -218,10 +217,10 @@
         <option value="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/Info.java" />
         <option value="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/OrdersApplication.java" />
         <option value="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/InfoResource.java" />
-        <option value="$PROJECT_DIR$/ws-adverts/src/main/resources/config-production.yaml" />
+        <option value="$PROJECT_DIR$/ws-orders/src/main/resources/config.yaml" />
         <option value="$PROJECT_DIR$/ws-adverts/src/main/resources/config.yaml" />
         <option value="$PROJECT_DIR$/ws-orders/src/main/resources/config-production.yaml" />
-        <option value="$PROJECT_DIR$/ws-orders/src/main/resources/config.yaml" />
+        <option value="$PROJECT_DIR$/ws-adverts/src/main/resources/config-production.yaml" />
       </list>
     </option>
   </component>
@@ -272,6 +271,32 @@
             <path>
               <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
               <item name="oglasevanje-storitev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oglasevanje-storitev" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-orders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oglasevanje-storitev" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-orders" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oglasevanje-storitev" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-orders" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oglasevanje-storitev" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-orders" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
@@ -579,7 +604,7 @@
       <workItem from="1512820735653" duration="7220000" />
       <workItem from="1512927464776" duration="9113000" />
       <workItem from="1513022452856" duration="1422000" />
-      <workItem from="1513108862018" duration="6972000" />
+      <workItem from="1513108862018" duration="7270000" />
     </task>
     <task id="LOCAL-00001" summary="postgres">
       <created>1511018335979</created>
@@ -784,11 +809,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513115061357</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary=".">
+      <created>1513116930422</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1513116930422</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71052000" />
+    <option name="totallyTimeSpent" value="71350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
@@ -1214,34 +1246,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ws-adverts/src/main/resources/config.yaml">
+    <entry file="file://$PROJECT_DIR$/ws-orders/src/main/resources/config.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ws-adverts/src/main/resources/config-production.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="126">
+          <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ws-orders/src/main/resources/config-production.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" column="35" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="126">
+          <caret line="7" column="61" lean-forward="false" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ws-orders/src/main/resources/config.yaml">
+    <entry file="file://$PROJECT_DIR$/ws-adverts/src/main/resources/config.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        <state relative-caret-position="144">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-adverts/src/main/resources/config-production.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="61" lean-forward="false" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
           <folding />
         </state>
       </provider>
