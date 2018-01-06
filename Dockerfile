@@ -4,6 +4,7 @@ RUN apt-get -qq update
 RUN apt-get -qq -y install supervisor
 RUN apt-get -qq -y install procps
 RUN apt-get -qq -y install net-tools
+RUN apt-get -qq -y install telnet
 
 RUN mkdir /app
 WORKDIR /app
