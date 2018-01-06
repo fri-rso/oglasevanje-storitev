@@ -10,9 +10,11 @@ directories:
 - $HOME/.m2
 script:
 - mvn clean package -U
-- docker build -t frirso/ws-orders -f Dockerfile.ws-orders .
-- docker build -t frirso/ws-adverts -f Dockerfile.ws-adverts .
+# - docker build -t frirso/ws-orders -f Dockerfile.ws-orders .
+# - docker build -t frirso/ws-adverts -f Dockerfile.ws-adverts .
+- docker build -t frirso/ws-orders-adverts -f Dockerfile .
 after_success:
 - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
-- docker push frirso/ws-orders
-- docker push frirso/ws-adverts
+- docker push frirso/ws-orders-adverts
+# - docker push frirso/ws-orders
+# - docker push frirso/ws-adverts
