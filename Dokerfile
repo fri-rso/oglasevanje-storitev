@@ -9,7 +9,7 @@ RUN mkdir /app
 WORKDIR /app
 
 ADD ws-adverts-1.0-SNAPSHOT.jar /app
-ADD ws-orders-1.0-SNAPSHOT.jar /app
+ADD $TRAVIS_BUILD_DIR/ws-orders/target/ws-orders-1.0-SNAPSHOT.jar /app
 
 EXPOSE 8081
 EXPOSE 8082
