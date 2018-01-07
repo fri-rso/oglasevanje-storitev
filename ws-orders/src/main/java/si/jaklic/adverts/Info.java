@@ -67,4 +67,12 @@ public class Info {
     public void setDockerhub(String[] dockerhub) {
         this.dockerhub = dockerhub;
     }
+
+    public String[] getConfig() {
+        return config;
+    }
+
+    public void setConfig(String[] config) {
+        this.config = config;
+    }
 }
