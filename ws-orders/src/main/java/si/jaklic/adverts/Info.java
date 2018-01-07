@@ -7,14 +7,16 @@ public class Info {
     String[] github;
     String[] travis;
     String[] dockerhub;
+    String[] config;
 
-    public Info(String[] clani, String opis, String[] mikrostoritve, String[] github, String[] travis, String[] dockerhub) {
+    public Info(String[] clani, String opis, String[] mikrostoritve, String[] github, String[] travis, String[] dockerhub, String[] config) {
         this.opis_projekta = opis;
         this.clani = clani;
         this.mikrostoritve = mikrostoritve;
         this.github = github;
         this.travis = travis;
         this.dockerhub = dockerhub;
+        this.config = config;
     }
 
     public String getOpis_projekta() {

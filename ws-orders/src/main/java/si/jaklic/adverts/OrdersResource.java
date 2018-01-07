@@ -35,6 +35,7 @@ public class OrdersResource {
 
   @GET
   public Response getOrders() {
+
     final TypedQuery<Order> query = em.createNamedQuery("Order.findAll", Order.class);
     final List<Order> orders = query.getResultList();
     return Response.ok(orders).build();

@@ -22,4 +22,5 @@ kumuluzee:
   orders-url: http://35.198.158.135
   adverts-url: http://35.198.120.63
 
-
+orders:
+  string-properpty: fafa
