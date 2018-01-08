@@ -7,16 +7,16 @@ public class Info {
     String[] github;
     String[] travis;
     String[] dockerhub;
-    String[] config;
+    String[] internal_mikrostoritve;
 
-    public Info(String[] clani, String opis, String[] mikrostoritve, String[] github, String[] travis, String[] dockerhub, String[] config) {
+    public Info(String[] clani, String opis, String[] mikrostoritve, String[] github, String[] travis, String[] dockerhub, String[] internal_mikrostoritve) {
         this.opis_projekta = opis;
         this.clani = clani;
         this.mikrostoritve = mikrostoritve;
         this.github = github;
         this.travis = travis;
         this.dockerhub = dockerhub;
-        this.config = config;
+        this.internal_mikrostoritve = internal_mikrostoritve;
     }
 
     public String getOpis_projekta() {
@@ -68,11 +68,11 @@ public class Info {
         this.dockerhub = dockerhub;
     }
 
-    public String[] getConfig() {
-        return config;
+    public String[] getInternal_mikrostoritve() {
+        return internal_mikrostoritve;
     }
 
-    public void setConfig(String[] config) {
-        this.config = config;
+    public void setInternal_mikrostoritve(String[] internal_mikrostoritve) {
+        this.internal_mikrostoritve = internal_mikrostoritve;
     }
 }

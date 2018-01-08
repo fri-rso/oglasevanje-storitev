@@ -19,7 +19,11 @@ public class InfoResource {
 
     @Inject
     @DiscoverService(value = "ws-orders", environment = "dev", version = "1.0.0")
-    private String urlString;
+    private String ws_orders;
+
+    @Inject
+    @DiscoverService(value = "ws-adverts", environment = "dev", version = "1.0.0")
+    private String ws_adverts;
 
     @GET
     public Response getOrders() {
@@ -28,7 +32,10 @@ public class InfoResource {
         String[] github = new String[]{"https://github.com/fri-rso/oglasevanje-storitev", "https://github.com/fri-rso/microservices-profile"};
         String[] travis = new String[]{"https://travis-ci.org/fri-rso/oglasevanje-storitev", "https://travis-ci.org/fri-rso/microservices-profile"};
         String[] dockerhub = new String[]{"https://hub.docker.com/r/frirso/ws-adverts/", "https://hub.docker.com/r/frirso/ws-orders/", "https://hub.docker.com/r/frirso/microservices-profile/"};
-        String[] config = new String[]{ordersProperties.getStringProperty(), this.urlString};
+        String[] internal_mikrostoritve = new String[] {
+                "ws_orders: " + this.ws_orders,
+                "ws_adverts: " + this.ws_adverts
+        };
 
         Info info = new Info(
                 clani,
@@ -37,7 +44,7 @@ public class InfoResource {
                 github,
                 travis,
                 dockerhub,
-                config
+                internal_mikrostoritve
         );
 
         return Response.status(Response.Status.OK).entity(info).build();
