@@ -1,6 +1,8 @@
 package si.jaklic.adverts;
 
 
+import com.kumuluz.ee.discovery.annotations.DiscoverService;
+
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
 import javax.ws.rs.*;
@@ -15,6 +17,10 @@ public class InfoResource {
     @Inject
     private OrdersProperties ordersProperties;
 
+    @Inject
+    @DiscoverService(value = "ws-orders", environment = "dev", version = "1.0.0")
+    private String urlString;
+
     @GET
     public Response getOrders() {
         String[] clani = new String[]{"j2799", "lp7872", "lh7753"};
@@ -22,7 +28,7 @@ public class InfoResource {
         String[] github = new String[]{"https://github.com/fri-rso/oglasevanje-storitev", "https://github.com/fri-rso/microservices-profile"};
         String[] travis = new String[]{"https://travis-ci.org/fri-rso/oglasevanje-storitev", "https://travis-ci.org/fri-rso/microservices-profile"};
         String[] dockerhub = new String[]{"https://hub.docker.com/r/frirso/ws-adverts/", "https://hub.docker.com/r/frirso/ws-orders/", "https://hub.docker.com/r/frirso/microservices-profile/"};
-        String[] config = new String[]{ordersProperties.getStringProperty()};
+        String[] config = new String[]{ordersProperties.getStringProperty(), this.urlString};
 
         Info info = new Info(
                 clani,
