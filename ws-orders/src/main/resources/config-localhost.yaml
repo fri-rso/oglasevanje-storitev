@@ -21,6 +21,9 @@ kumuluzee:
     cluster: cluster-1
   orders-url: http://localhost:8081
   adverts-url: http://localhost:8082
-
+  comments-url: http://35.187.189.86
+  profiles-url: http://35.205.85.4
+  cart-url: http://35.205.160.154
+  services-url: http://35.195.160.71
 orders:
   string-properpty: fafa

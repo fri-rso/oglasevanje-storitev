@@ -30,6 +30,7 @@ public class HealthCheckInitializationExtension implements Extension {
         // healthCheckRegistry.register(GithubHealthCheck.class.getSimpleName(), new GithubHealthCheck());
         healthCheckRegistry.register(OrdersHealthCheck.class.getSimpleName(), new OrdersHealthCheck());
         healthCheckRegistry.register(AdvertsHealthCheck.class.getSimpleName(), new AdvertsHealthCheck());
+        healthCheckRegistry.register(CommentsHealthCheck.class.getSimpleName(), new CommentsHealthCheck());
 
         Set<Bean<?>> beans = beanManager.getBeans(HealthCheck.class, new AnnotationLiteral<Health>() {});
 
