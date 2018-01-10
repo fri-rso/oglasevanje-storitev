@@ -30,8 +30,8 @@ public class OrdersResource {
   private OrdersProperties ordersProperties;
 
   @Inject
-  @DiscoverService(value = "ws-orders", environment = "dev", version = "1.0.0")
-  private URL url;
+  @DiscoverService(value = "ws-adverts", environment = "dev", version = "1.0.0")
+  private URL ws_adverts;
 
   @GET
   public Response getOrders() {

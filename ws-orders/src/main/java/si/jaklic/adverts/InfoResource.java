@@ -25,6 +25,10 @@ public class InfoResource {
     @DiscoverService(value = "ws-adverts", environment = "dev", version = "1.0.0")
     private String ws_adverts;
 
+    @Inject
+    @DiscoverService(value = "microservices-comments", environment = "dev", version = "1.0.0")
+    private String microservices_comments;
+
     @GET
     public Response getOrders() {
         String[] clani = new String[]{"j2799", "lp7872", "lh7753"};
@@ -34,7 +38,8 @@ public class InfoResource {
         String[] dockerhub = new String[]{"https://hub.docker.com/r/frirso/ws-adverts/", "https://hub.docker.com/r/frirso/ws-orders/", "https://hub.docker.com/r/frirso/microservices-profile/"};
         String[] internal_mikrostoritve = new String[] {
                 "ws_orders: " + this.ws_orders,
-                "ws_adverts: " + this.ws_adverts
+                "ws_adverts: " + this.ws_adverts,
+                "microservices_comments: " + this.microservices_comments
         };
 
         Info info = new Info(

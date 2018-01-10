@@ -1,14 +1,17 @@
 package si.jaklic.adverts;
 
+import com.kumuluz.ee.discovery.annotations.DiscoverService;
 import si.jaklic.adverts.models.Advert;
 
 import javax.enterprise.context.RequestScoped;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
+import javax.inject.Inject;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import java.net.URL;
 import java.util.List;
 
 @Path("/adverts")
@@ -19,6 +22,10 @@ public class AdvertsResource {
 
   @PersistenceContext
   private EntityManager em;
+
+  @Inject
+  @DiscoverService(value = "ws-orders", environment = "dev", version = "1.0.0")
+  private URL ws_orders;
 
   @GET
   public Response getAdverts() {
