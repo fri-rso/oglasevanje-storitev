@@ -32,10 +32,36 @@ public class InfoResource {
     @GET
     public Response getOrders() {
         String[] clani = new String[]{"j2799", "lp7872", "lh7753"};
-        String[] mikrostoritve = new String[]{"http://35.205.24.229/orders", "http://35.205.77.9/adverts", "http://35.189.87.170/profiles"};
-        String[] github = new String[]{"https://github.com/fri-rso/oglasevanje-storitev", "https://github.com/fri-rso/microservices-profile"};
-        String[] travis = new String[]{"https://travis-ci.org/fri-rso/oglasevanje-storitev", "https://travis-ci.org/fri-rso/microservices-profile"};
-        String[] dockerhub = new String[]{"https://hub.docker.com/r/frirso/ws-adverts/", "https://hub.docker.com/r/frirso/ws-orders/", "https://hub.docker.com/r/frirso/microservices-profile/"};
+        String[] mikrostoritve = new String[]{
+                "http://35.205.199.197/orders",
+                "http://35.195.94.49/adverts",
+                "http://35.205.85.4/profiles",
+                "http://35.195.160.71/services",
+                "http://35.187.189.86/comments",
+                "http://35.205.160.154/cart"
+        };
+        String[] github = new String[]{
+                "https://github.com/fri-rso/oglasevanje-storitev",
+                "https://github.com/fri-rso/microservices-profile",
+                "https://github.com/fri-rso/microservices-cart",
+                "https://github.com/fri-rso/microservices-services",
+                "https://github.com/fri-rso/microservices-comments"
+        };
+        String[] travis = new String[]{
+                "https://travis-ci.org/fri-rso/oglasevanje-storitev",
+                "https://travis-ci.org/fri-rso/microservices-comments",
+                "https://travis-ci.org/fri-rso/microservices-profile",
+                "https://travis-ci.org/fri-rso/microservices-cart",
+                "https://travis-ci.org/fri-rso/microservices-services"
+        };
+        String[] dockerhub = new String[]{
+                "https://hub.docker.com/r/frirso/ws-adverts/",
+                "https://hub.docker.com/r/frirso/ws-orders/",
+                "https://hub.docker.com/r/frirso/microservices-profile/",
+                "https://hub.docker.com/r/frirso/microservices-comments/",
+                "https://hub.docker.com/r/frirso/microservices-cart/",
+                "https://hub.docker.com/r/frirso/microservices-services/",
+        };
         String[] internal_mikrostoritve = new String[] {
                 "ws_orders: " + this.ws_orders,
                 "ws_adverts: " + this.ws_adverts,
