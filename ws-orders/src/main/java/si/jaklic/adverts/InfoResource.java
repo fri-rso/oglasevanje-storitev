@@ -25,9 +25,9 @@ public class InfoResource {
     @DiscoverService(value = "ws-adverts", environment = "dev", version = "1.0.0")
     private String ws_adverts;
 
-    @Inject
-    @DiscoverService(value = "microservices-comments", environment = "dev", version = "1.0.0")
-    private String microservices_comments;
+//    @Inject
+//    @DiscoverService(value = "microservices-comments", environment = "dev", version = "1.0.0")
+//    private String microservices_comments;
 
     @GET
     public Response getOrders() {
@@ -65,7 +65,7 @@ public class InfoResource {
         String[] internal_mikrostoritve = new String[] {
                 "ws_orders: " + this.ws_orders,
                 "ws_adverts: " + this.ws_adverts,
-                "microservices_comments: " + this.microservices_comments
+//                "microservices_comments: " + this.microservices_comments
         };
 
         Info info = new Info(
