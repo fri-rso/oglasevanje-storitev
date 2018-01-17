@@ -4,7 +4,6 @@ import com.kumuluz.ee.configuration.utils.ConfigurationUtil;
 import org.eclipse.microprofile.health.HealthCheck;
 import org.eclipse.microprofile.health.HealthCheckResponse;
 
-import javax.inject.Inject;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.logging.Logger;
@@ -12,13 +11,12 @@ import java.util.logging.Logger;
 public class CartHealthCheck implements HealthCheck {
     private static final Logger LOG = Logger.getLogger(CartHealthCheck.class.getSimpleName());
 
-    @Inject
-    private OrdersProperties ordersProperties;
-
     @Override
     public HealthCheckResponse call() {
         try {
-            String url = ordersProperties.getCartUrl();
+            ConfigurationUtil configurationUtil = ConfigurationUtil.getInstance();
+            String url = configurationUtil.get("orders.cart-url").orElse("");
+
             HttpURLConnection connection = (HttpURLConnection) new URL(url + "/cart").openConnection();
             connection.setRequestMethod("HEAD");
 

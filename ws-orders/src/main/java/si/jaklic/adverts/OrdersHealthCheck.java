@@ -5,8 +5,6 @@ import com.kumuluz.ee.discovery.annotations.DiscoverService;
 import org.eclipse.microprofile.health.HealthCheck;
 import org.eclipse.microprofile.health.HealthCheckResponse;
 
-import javax.inject.Inject;
-import javax.ws.rs.client.WebTarget;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.logging.Logger;
@@ -14,13 +12,12 @@ import java.util.logging.Logger;
 public class OrdersHealthCheck implements HealthCheck {
     private static final Logger LOG = Logger.getLogger(OrdersHealthCheck.class.getSimpleName());
 
-    @Inject
-    private OrdersProperties ordersProperties;
-
     @Override
     public HealthCheckResponse call() {
         try {
-            String url = ordersProperties.getOrdersUrl();
+            ConfigurationUtil configurationUtil = ConfigurationUtil.getInstance();
+            String url = configurationUtil.get("orders.orders-url").orElse("");
+
             HttpURLConnection connection = (HttpURLConnection) new URL(url + "/orders").openConnection();
             connection.setRequestMethod("HEAD");
 
