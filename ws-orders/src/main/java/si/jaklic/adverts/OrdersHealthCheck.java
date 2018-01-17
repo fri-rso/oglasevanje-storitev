@@ -14,11 +14,13 @@ import java.util.logging.Logger;
 public class OrdersHealthCheck implements HealthCheck {
     private static final Logger LOG = Logger.getLogger(OrdersHealthCheck.class.getSimpleName());
 
+    @Inject
+    private OrdersProperties ordersProperties;
+
     @Override
     public HealthCheckResponse call() {
         try {
-            ConfigurationUtil configurationUtil = ConfigurationUtil.getInstance();
-            String url = configurationUtil.get("kumuluzee.orders-url").orElse("");
+            String url = ordersProperties.getOrdersUrl();
             HttpURLConnection connection = (HttpURLConnection) new URL(url + "/orders").openConnection();
             connection.setRequestMethod("HEAD");
 

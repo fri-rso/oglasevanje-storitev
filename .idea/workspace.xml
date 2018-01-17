@@ -6,12 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e37d1edf-598d-472a-914e-207605da1f87" name="Default" comment=".">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/target/classes/si/jaklic/adverts/OrdersProperties.class" afterPath="$PROJECT_DIR$/ws-orders/target/classes/si/jaklic/adverts/OrdersProperties.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/target/classes/si/jaklic/adverts/OrdersResource.class" afterPath="$PROJECT_DIR$/ws-orders/target/classes/si/jaklic/adverts/OrdersResource.class" />
+    <list default="true" id="e37d1edf-598d-472a-914e-207605da1f87" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-adverts/src/main/resources/config.yaml" afterPath="$PROJECT_DIR$/ws-adverts/src/main/resources/config.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/target/classes/config.yaml" afterPath="$PROJECT_DIR$/ws-orders/target/classes/config.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-adverts/src/main/java/si/jaklic/adverts/AdvertsResource.java" afterPath="$PROJECT_DIR$/ws-adverts/src/main/java/si/jaklic/adverts/AdvertsResource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/AdvertsHealthCheck.java" afterPath="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/AdvertsHealthCheck.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/CartHealthCheck.java" afterPath="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/CartHealthCheck.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/CommentsHealthCheck.java" afterPath="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/CommentsHealthCheck.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/OrdersHealthCheck.java" afterPath="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/OrdersHealthCheck.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/ProfileHealthCheck.java" afterPath="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/ProfileHealthCheck.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/ServicesHealthCheck.java" afterPath="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/ServicesHealthCheck.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/db-models/target/" />
@@ -27,61 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ws-orders/src/main/resources/config.yaml">
+      <file leaf-file-name="OrdersHealthCheck.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/OrdersHealthCheck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="28" column="36" lean-forward="false" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config-localhost.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ws-adverts/src/main/resources/config-localhost.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config-production.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ws-adverts/src/main/resources/config-production.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config-localhost.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ws-orders/src/main/resources/config-localhost.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config-production.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ws-orders/src/main/resources/config-production.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InfoResource.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/InfoResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="71" column="29" lean-forward="true" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+            <state relative-caret-position="296">
+              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,12 +42,87 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Info.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/Info.java">
+      <file leaf-file-name="ProfileHealthCheck.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/ProfileHealthCheck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-180">
-              <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            <state relative-caret-position="234">
+              <caret line="20" column="59" lean-forward="false" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServicesHealthCheck.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/ServicesHealthCheck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdvertsHealthCheck.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/AdvertsHealthCheck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CartHealthCheck.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/CartHealthCheck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="20" column="55" lean-forward="false" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrdersProperties.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/OrdersProperties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="75" column="16" lean-forward="false" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
+              <folding>
+                <element signature="e#1565#1566#0" expanded="true" />
+                <element signature="e#1589#1590#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GithubHealthCheck.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/GithubHealthCheck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="11" column="57" lean-forward="false" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommentsHealthCheck.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/CommentsHealthCheck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="20" column="59" lean-forward="false" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InfoResource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/InfoResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,26 +132,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
               <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dockerfile.ws-adverts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dockerfile.ws-adverts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dockerfile.ws-orders" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dockerfile.ws-orders">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -140,8 +148,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>eeapplication</find>
-      <find>advertsDS</find>
       <find>8080</find>
       <find>5432</find>
       <find>KumuluzHealthCheckResponseProvider</find>
@@ -170,6 +176,8 @@
       <find>config.ya</find>
       <find>base</find>
       <find>internal_mi</find>
+      <find>ws_orders</find>
+      <find>ws_adverts</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/ws-orders</dir>
@@ -191,15 +199,9 @@
         <option value="$PROJECT_DIR$/ws-adverts/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/ws-adverts/src/main/java/si/jaklic/adverts/AdvertsApplication.java" />
-        <option value="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/AdvertsHealthCheck.java" />
-        <option value="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/OrdersHealthCheck.java" />
         <option value="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/OrdersApplication.java" />
         <option value="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/ConfigProperties.java" />
         <option value="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/CommentrsHealthCheck.java" />
-        <option value="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/CommentsHealthCheck.java" />
-        <option value="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/CartHealthCheck.java" />
-        <option value="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/ProfileHealthCheck.java" />
-        <option value="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/ServicesHealthCheck.java" />
         <option value="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/HealthCheckInitializationExtension.java" />
         <option value="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/Info.java" />
         <option value="$PROJECT_DIR$/ws-adverts/src/main/java/si/jaklic/adverts/AdvertsResource.java" />
@@ -217,6 +219,12 @@
         <option value="$PROJECT_DIR$/ws-adverts/src/main/resources/config-localhost.yaml" />
         <option value="$PROJECT_DIR$/ws-orders/src/main/resources/config.yaml" />
         <option value="$PROJECT_DIR$/ws-adverts/src/main/resources/config.yaml" />
+        <option value="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/ServicesHealthCheck.java" />
+        <option value="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/ProfileHealthCheck.java" />
+        <option value="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/OrdersHealthCheck.java" />
+        <option value="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/CommentsHealthCheck.java" />
+        <option value="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/CartHealthCheck.java" />
+        <option value="$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/AdvertsHealthCheck.java" />
       </list>
     </option>
   </component>
@@ -266,6 +274,67 @@
             <path>
               <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
               <item name="oglasevanje-storitev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oglasevanje-storitev" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-adverts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oglasevanje-storitev" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-adverts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oglasevanje-storitev" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-adverts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oglasevanje-storitev" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-adverts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oglasevanje-storitev" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-orders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oglasevanje-storitev" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-orders" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oglasevanje-storitev" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-orders" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oglasevanje-storitev" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-orders" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oglasevanje-storitev" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-orders" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="adverts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="oglasevanje-storitev" type="b2602c69:ProjectViewProjectNode" />
@@ -497,7 +566,7 @@
       <workItem from="1516048366044" duration="5982000" />
       <workItem from="1516128383480" duration="9357000" />
       <workItem from="1516177912064" duration="18000" />
-      <workItem from="1516211193271" duration="6639000" />
+      <workItem from="1516211193271" duration="8156000" />
     </task>
     <task id="LOCAL-00001" summary="postgres">
       <created>1511018335979</created>
@@ -800,11 +869,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516222809416</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary=".">
+      <created>1516224230658</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1516224230658</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119583000" />
+    <option name="totallyTimeSpent" value="121100000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -968,46 +1044,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/ProfileHealthCheck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/ServicesHealthCheck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="18" column="87" lean-forward="false" selection-start-line="18" selection-start-column="87" selection-end-line="18" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/CartHealthCheck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="18" column="49" lean-forward="true" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/CommentsHealthCheck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/HealthCheckInitializationExtension.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="30" column="47" lean-forward="false" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/GithubHealthCheck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="11" column="57" lean-forward="false" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -1022,13 +1063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/AdvertsHealthCheck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="17" column="73" lean-forward="false" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
         </state>
       </provider>
     </entry>
@@ -1121,16 +1155,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1692">
           <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1143,75 +1167,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/OrdersHealthCheck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/OrdersProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding>
-            <element signature="e#884#885#0" expanded="true" />
-            <element signature="e#926#927#0" expanded="true" />
-            <element signature="e#1111#1112#0" expanded="true" />
-            <element signature="e#1137#1138#0" expanded="true" />
-            <element signature="e#1185#1186#0" expanded="true" />
-            <element signature="e#1221#1222#0" expanded="true" />
-            <element signature="e#1257#1258#0" expanded="true" />
-            <element signature="e#1285#1286#0" expanded="true" />
-            <element signature="e#1337#1338#0" expanded="true" />
-            <element signature="e#1377#1378#0" expanded="true" />
-            <element signature="e#1413#1414#0" expanded="true" />
-            <element signature="e#1441#1442#0" expanded="true" />
-            <element signature="e#1493#1494#0" expanded="true" />
-            <element signature="e#1533#1534#0" expanded="true" />
-            <element signature="e#1565#1566#0" expanded="true" />
-            <element signature="e#1589#1590#0" expanded="true" />
-            <element signature="e#1633#1634#0" expanded="true" />
-            <element signature="e#1665#1666#0" expanded="true" />
-            <element signature="e#1701#1702#0" expanded="true" />
-            <element signature="e#1729#1730#0" expanded="true" />
-            <element signature="e#1781#1782#0" expanded="true" />
-            <element signature="e#1821#1822#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ws-adverts/src/main/resources/config-localhost.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ws-orders/src/main/resources/config-localhost.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile.ws-orders">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile.ws-adverts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1224,6 +1183,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ws-orders/src/main/resources/config.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="36" lean-forward="false" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ws-orders/src/main/resources/config-production.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -1232,10 +1199,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ws-orders/src/main/resources/config.yaml">
+    <entry file="file://$PROJECT_DIR$/ws-orders/src/main/resources/config-localhost.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="36" lean-forward="false" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        <state relative-caret-position="414">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1248,6 +1215,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile.ws-adverts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile.ws-orders">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ws-adverts/src/main/resources/config.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -1256,13 +1247,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/GithubHealthCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="11" column="57" lean-forward="false" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/InfoResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="71" column="29" lean-forward="true" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+        <state relative-caret-position="90">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/OrdersProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="75" column="16" lean-forward="false" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
+          <folding>
+            <element signature="e#1565#1566#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/ServicesHealthCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/ProfileHealthCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="20" column="59" lean-forward="false" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/OrdersHealthCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/CommentsHealthCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="20" column="59" lean-forward="false" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/CartHealthCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="20" column="55" lean-forward="false" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-orders/src/main/java/si/jaklic/adverts/AdvertsHealthCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -23,10 +23,6 @@ public class AdvertsResource {
   @PersistenceContext
   private EntityManager em;
 
-  @Inject
-  @DiscoverService(value = "ws-orders", environment = "dev", version = "1.0.0")
-  private URL ws_orders;
-
   @GET
   public Response getAdverts() {
     final TypedQuery<Advert> query = em.createNamedQuery("Advert.findAll", Advert.class);
