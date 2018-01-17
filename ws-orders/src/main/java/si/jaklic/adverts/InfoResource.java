@@ -34,7 +34,7 @@ public class InfoResource {
         String[] clani = new String[]{"j2799", "lp7872", "lh7753"};
         String[] mikrostoritve = new String[]{
                 "http://35.205.199.197/orders",
-                "http://35.195.94.49/adverts",
+                "http://35.205.216.56/adverts",
                 "http://35.205.85.4/profiles",
                 "http://35.195.160.71/services",
                 "http://35.187.189.86/comments",
@@ -66,6 +66,7 @@ public class InfoResource {
                 "ws_orders: " + this.ws_orders,
                 "ws_adverts: " + this.ws_adverts,
 //                "microservices_comments: " + this.microservices_comments
+                "ws_adverts dyn: " + this.ordersProperties.getAdvertsUrl()
         };
 
         Info info = new Info(

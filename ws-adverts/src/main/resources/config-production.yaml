@@ -19,5 +19,11 @@ kumuluzee:
     ttl: 20
     ping-interval: 15
     cluster: cluster-1
-  orders-url: http://35.198.158.135
-  adverts-url: http://35.198.120.63
+orders:
+  web-page-title: Spletna narocila
+  orders-url: http://35.205.199.197
+  adverts-url: http://35.205.216.56
+  comments-url: http://35.187.189.86
+  profiles-url: http://35.205.85.4
+  cart-url: http://35.205.160.154
+  services-url: http://35.195.160.71
