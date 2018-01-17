@@ -17,6 +17,8 @@ public class ServicesHealthCheck implements HealthCheck {
             ConfigurationUtil configurationUtil = ConfigurationUtil.getInstance();
             String url = configurationUtil.get("orders.services-url").orElse("");
 
+            LOG.info("Trying to check health of " + url);
+
             HttpURLConnection connection = (HttpURLConnection) new URL(url + "/services").openConnection();
             connection.setRequestMethod("HEAD");
 

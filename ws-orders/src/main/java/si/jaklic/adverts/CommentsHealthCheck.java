@@ -17,6 +17,8 @@ public class CommentsHealthCheck implements HealthCheck {
             ConfigurationUtil configurationUtil = ConfigurationUtil.getInstance();
             String url = configurationUtil.get("orders.comments-url").orElse("");
 
+            LOG.info("Trying to check health of " + url);
+
             HttpURLConnection connection = (HttpURLConnection) new URL(url + "/comments").openConnection();
             connection.setRequestMethod("HEAD");
 

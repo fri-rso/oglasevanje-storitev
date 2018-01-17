@@ -17,6 +17,8 @@ public class CartHealthCheck implements HealthCheck {
             ConfigurationUtil configurationUtil = ConfigurationUtil.getInstance();
             String url = configurationUtil.get("orders.cart-url").orElse("");
 
+            LOG.info("Trying to check health of " + url);
+
             HttpURLConnection connection = (HttpURLConnection) new URL(url + "/cart").openConnection();
             connection.setRequestMethod("HEAD");
 

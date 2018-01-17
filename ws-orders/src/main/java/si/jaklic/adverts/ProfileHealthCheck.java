@@ -17,6 +17,8 @@ public class ProfileHealthCheck implements HealthCheck {
             ConfigurationUtil configurationUtil = ConfigurationUtil.getInstance();
             String url = configurationUtil.get("orders.profiles-url").orElse("");
 
+            LOG.info("Trying to check health of " + url);
+
             HttpURLConnection connection = (HttpURLConnection) new URL(url + "/profiles").openConnection();
             connection.setRequestMethod("HEAD");
 

@@ -17,6 +17,8 @@ public class AdvertsHealthCheck implements HealthCheck {
             ConfigurationUtil configurationUtil = ConfigurationUtil.getInstance();
             String url = configurationUtil.get("orders.adverts-url").orElse("");
 
+            LOG.info("Trying to check health of " + url);
+
             HttpURLConnection connection = (HttpURLConnection) new URL(url + "/adverts").openConnection();
             connection.setRequestMethod("HEAD");
 
